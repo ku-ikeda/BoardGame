@@ -71,7 +71,7 @@ function judge(){
 
         if (winner) {
             var str = winner + "の勝ち";
-        } else if (count == 9) {
+        } else if (count == 8) {
             var str = "引き分け";
     }
         return str ;;
